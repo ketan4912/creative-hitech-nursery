@@ -11,7 +11,7 @@ import {
   Star, 
   Send, 
   ArrowRight, 
-  Sparkles, 
+  
   ChevronRight, 
   Truck, 
   Award, 
@@ -23,7 +23,6 @@ import {
   Building2,
   TrendingUp,
   ShoppingBag,
-  SlidersHorizontal,
   SunMedium
 } from 'lucide-react';
 
