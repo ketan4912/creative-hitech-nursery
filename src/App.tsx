@@ -163,8 +163,8 @@ const REVIEWS: Review[] = [
     nameMr: 'राजेश पाटील',
     role: 'Landscape Architect, Pune',
     roleMr: 'लँडस्केप आर्किटेक्ट, पुणे',
-    comment: 'Shreenath Nursery provided exceptional quality Areca palms for our resort project in Lonavala. Outstanding wholesale prices and prompt delivery!',
-    commentMr: 'श्रीनाथ नर्सरीने लोणावळ्यातील आमच्या रिसॉर्ट प्रकल्पासाठी अत्यंत उत्कृष्ट दर्जाचे अरेका पाम पुरवले. होलसेल दर आणि जलद डिलिव्हरी उत्कृष्ट आहे!',
+    comment: 'Creative Hitech Nursery provided exceptional quality Areca palms for our resort project in Lonavala. Outstanding wholesale prices and prompt delivery!',
+    commentMr: 'क्रिएटिव्ह हायटेक नर्सरीने लोणावळ्यातील आमच्या रिसॉर्ट प्रकल्पासाठी अत्यंत उत्कृष्ट दर्जाचे अरेका पाम पुरवले. होलसेल दर आणि जलद डिलिव्हरी उत्कृष्ट आहे!',
     rating: 5,
     date: '2 days ago',
     dateMr: '२ दिवसांपूर्वी'
@@ -175,8 +175,8 @@ const REVIEWS: Review[] = [
     nameMr: 'अनन्या शर्मा',
     role: 'Interior Designer',
     roleMr: 'इंटीरियर डिझायनर',
-    comment: 'The healthiest indoor foliage plants in Shindaone area. Open 24 hours service made night pick-up so effortless for our emergency setup.',
-    commentMr: 'शिंदावणे परिसरातील सर्वात निरोगी इनडोअर रोपे. चोवीस तास सुरू असणाऱ्या सेवेमुळे आमच्या आपत्कालीन सेटअपसाठी रात्रीच्या वेळी रोपे उचलणे अत्यंत सोपे झाले.',
+    comment: 'The healthiest indoor foliage plants in Uruli Kanchan area. Open 24 hours service made night pick-up so effortless for our emergency setup.',
+    commentMr: 'उरळी कांचन परिसरातील सर्वात निरोगी इनडोअर रोपे. चोवीस तास सुरू असणाऱ्या सेवेमुळे आमच्या आपत्कालीन सेटअपसाठी रात्रीच्या वेळी रोपे उचलणे अत्यंत सोपे झाले.',
     rating: 5,
     date: '1 week ago',
     dateMr: '१ आठवड्यापूर्वी'
@@ -187,8 +187,8 @@ const REVIEWS: Review[] = [
     nameMr: 'सुरेश देशमुख',
     role: 'Commercial Nursery Buyer',
     roleMr: 'व्यावसायिक नर्सरी खरेदीदार',
-    comment: 'Bulk ordering was seamless. The staff at Lonkar Mala helped load over 1,000 saplings with extreme care. Highly recommended wholesale nursery!',
-    commentMr: 'मोठ्या प्रमाणात ऑर्डर देणे अत्यंत सोपे होते. लोणकर मळा येथील कर्मचाऱ्यांनी १,००० हून अधिक रोपे अत्यंत काळजीपूर्वक लोड करण्यास मदत केली. अत्यंत शिफारस केलेली होलसेल नर्सरी!',
+    comment: 'Bulk ordering was seamless. The staff near BAIF Research Center helped load over 1,000 saplings with extreme care. Highly recommended wholesale nursery!',
+    commentMr: 'मोठ्या प्रमाणात ऑर्डर देणे अत्यंत सोपे होते. बीएआयएफ रिसर्च सेंटर जवळील कर्मचाऱ्यांनी १,००० हून अधिक रोपे अत्यंत काळजीपूर्वक लोड करण्यास मदत केली. अत्यंत शिफारस केलेली होलसेल नर्सरी!',
     rating: 5,
     date: '3 weeks ago',
     dateMr: '३ आठवड्यापूर्वी'
@@ -255,10 +255,10 @@ export default function App() {
               </div>
               <div>
                 <span className="text-xl font-extrabold text-slate-900 tracking-tight block">
-                  shreenath <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">nursery</span>
+                  creative hitech <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">nursery</span>
                 </span>
                 <span className="text-[10px] text-purple-600 font-bold tracking-widest uppercase block -mt-1">
-                  {lang === 'en' ? 'Wholesale & Retail • Shindaone' : 'होलसेल आणि किरकोळ • शिंदावणे'}
+                  {lang === 'en' ? 'Wholesale & Retail • Uruli Kanchan' : 'होलसेल आणि किरकोळ • उरळी कांचन'}
                 </span>
               </div>
             </div>
@@ -287,10 +287,10 @@ export default function App() {
               </div>
 
               <a 
-                href="tel:09657041571"
+                href="tel:7378748124"
                 className="group relative inline-flex items-center justify-center px-5 py-2.5 text-sm font-bold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-purple-700 rounded-full shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
               >
-                <span>{lang === 'en' ? 'Call 096570 41571' : 'कॉल करा ०९६५७० ४१५७१'}</span>
+                <span>{lang === 'en' ? 'Call 73787 48124' : 'कॉल करा ७३७८७ ४८१२४'}</span>
                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-0.5 transition-transform" />
               </a>
             </div>
@@ -345,11 +345,11 @@ export default function App() {
               {lang === 'en' ? 'Location & Hours' : 'पत्ता आणि वेळ'}
             </a>
             <a 
-              href="tel:09657041571" 
+              href="tel:7378748124" 
               className="flex items-center justify-center w-full py-3 px-4 rounded-full text-center font-bold text-white bg-gradient-to-r from-indigo-600 to-purple-600 shadow-md mt-4"
             >
               <Phone className="w-4 h-4 mr-2" />
-              {lang === 'en' ? 'Call 096570 41571' : 'कॉल करा ०९६५७० ४१५७१'}
+              {lang === 'en' ? 'Call 73787 48124' : 'कॉल करा ७३७८७ ४८१२४'}
             </a>
           </div>
         )}
@@ -384,8 +384,8 @@ export default function App() {
               {/* Description */}
               <p className="text-lg text-slate-600 leading-relaxed max-w-2xl font-normal">
                 {lang === 'en' 
-                  ? 'Shreenath Nursery brings indoor foliage, outdoor landscaping trees, flowering shrubs, and exotic plants straight into a unified supply chain — so your projects stop dealing with low quality stock and start growing.' 
-                  : 'श्रीनाथ नर्सरी इनडोअर रोपे, आऊटडोअर लँडस्केपिंग झाडे, फुलांचे झुडूप आणि एक्झोटिक वनस्पती एकात्मिक पुरवठा साखळीत आणते — जेणेकरून तुमच्या प्रकल्पांना सर्वोत्तम दर्जाचे बियाणे व रोपे मिळतील.'}
+                  ? 'Creative Hitech Nursery brings indoor foliage, outdoor landscaping trees, flowering shrubs, and exotic plants straight into a unified supply chain — so your projects stop dealing with low quality stock and start growing.' 
+                  : 'क्रिएटिव्ह हायटेक नर्सरी इनडोअर रोपे, आऊटडोअर लँडस्केपिंग झाडे, फुलांचे झुडूप आणि एक्झोटिक वनस्पती एकात्मिक पुरवठा साखळीत आणते — जेणेकरून तुमच्या प्रकल्पांना सर्वोत्तम दर्जाचे बियाणे व रोपे मिळतील.'}
               </p>
 
               {/* Features List */}
@@ -406,7 +406,7 @@ export default function App() {
                   <div className="w-5 h-5 rounded-full bg-purple-100 text-purple-700 flex items-center justify-center shrink-0">
                     <CheckCircle2 className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
-                  <span>{lang === 'en' ? 'Open 24 Hours • Shindaone' : '२४ तास सुरू • शिंदावणे'}</span>
+                  <span>{lang === 'en' ? 'Open 24 Hours • Uruli Kanchan' : '२४ तास सुरू • उरळी कांचन'}</span>
                 </div>
                 <div className="flex items-center space-x-2.5">
                   <div className="w-5 h-5 rounded-full bg-purple-100 text-purple-700 flex items-center justify-center shrink-0">
@@ -448,7 +448,7 @@ export default function App() {
                       <div className="w-3 h-3 rounded-full bg-emerald-400"></div>
                     </div>
                     <span className="text-xs font-extrabold text-slate-800 tracking-tight">
-                      {lang === 'en' ? 'Shreenath Wholesale Portal' : 'श्रीनाथ होलसेल पोर्टल'}
+                      {lang === 'en' ? 'Creative Hitech Wholesale Portal' : 'क्रिएटिव्ह हायटेक होलसेल पोर्टल'}
                     </span>
                   </div>
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
@@ -556,7 +556,7 @@ export default function App() {
                         </div>
                       </div>
                       <a
-                        href="tel:09657041571"
+                        href="tel:7378748124"
                         className="px-3 py-1.5 rounded-full bg-white text-purple-900 font-extrabold text-xs hover:bg-purple-50 transition-colors"
                       >
                         {lang === 'en' ? 'Call' : 'कॉल'}
@@ -613,7 +613,7 @@ export default function App() {
                     </div>
 
                     <a 
-                      href={`https://wa.me/919657041571?text=Hello%20Shreenath%20Nursery,%20I%20am%20interested%20in%20ordering%20${quoteQuantity}%20units%20of%20${quotePlantType}.`}
+                      href={`https://wa.me/917378748124?text=Hello%20Creative%20Hitech%20Nursery,%20I%20am%20interested%20in%20ordering%20${quoteQuantity}%20units%20of%20${quotePlantType}.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-xs flex items-center justify-center transition-opacity hover:opacity-95 shadow-md"
@@ -630,10 +630,10 @@ export default function App() {
                       <MapPin className="w-4 h-4 text-purple-600 shrink-0 mt-0.5" />
                       <div>
                         <p className="font-bold text-slate-800">
-                          {lang === 'en' ? 'Shreenath Nursery Address' : 'श्रीनाथ नर्सरी पत्ता'}
+                          {lang === 'en' ? 'Creative Hitech Nursery Address' : 'क्रिएटिव्ह हायटेक नर्सरी पत्ता'}
                         </p>
                         <p className="text-slate-500 text-[11px] mt-0.5">
-                          {lang === 'en' ? 'Lonkar mala, Sortapwadi Phata, Shindaone, Maharashtra 412202' : 'लोणकर मळा, सोरतापवाडी फाटा, शिंदावणे, महाराष्ट्र ४१२२०२'}
+                          {lang === 'en' ? 'BAIF Rd, opp. BAIF Research Center, Uruli Kanchan, Maharashtra 412202' : 'बीएआयएफ रोड, बीएआयएफ रिसर्च सेंटर समोर, उरळी कांचन, महाराष्ट्र ४१२२०२'}
                         </p>
                       </div>
                     </div>
@@ -644,7 +644,7 @@ export default function App() {
                         <p className="font-bold text-slate-800">
                           {lang === 'en' ? 'Phone' : 'मोबाईल नंबर'}
                         </p>
-                        <p className="text-purple-700 font-bold font-mono mt-0.5">096570 41571</p>
+                        <p className="text-purple-700 font-bold font-mono mt-0.5">73787 48124</p>
                       </div>
                     </div>
 
@@ -914,7 +914,7 @@ export default function App() {
 
             <div className="flex space-x-3">
               <a
-                href={`https://wa.me/919657041571?text=Hi,%20I%20want%20to%20order%20${encodeURIComponent(selectedPlant.name)}%20in%20wholesale.`}
+                href={`https://wa.me/917378748124?text=Hi,%20I%20want%20to%20order%20${encodeURIComponent(selectedPlant.name)}%20in%20wholesale.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-xs text-center transition-opacity hover:opacity-95 shadow-md"
@@ -922,7 +922,7 @@ export default function App() {
                 {lang === 'en' ? 'Inquire via WhatsApp' : 'व्हॉट्सॲपवर चौकशी करा'}
               </a>
               <a
-                href="tel:09657041571"
+                href="tel:7378748124"
                 className="px-5 py-3 rounded-full bg-slate-100 text-slate-700 font-bold text-xs text-center hover:bg-slate-200 transition-colors"
               >
                 {lang === 'en' ? 'Call' : 'कॉल करा'}
@@ -946,8 +946,8 @@ export default function App() {
               </h2>
               <p className="text-slate-600 text-sm leading-relaxed font-normal">
                 {lang === 'en' 
-                  ? 'Shreenath Nursery provides healthiest root-bound stock directly from field beds for landscape architects, builders, and developers across Maharashtra.' 
-                  : 'श्रीनाथ नर्सरी महाराष्ट्रातील लँडस्केप आर्किटेक्ट, बिल्डर्स आणि डेव्हलपर्ससाठी थेट शेतातून अत्यंत निरोगी रोपे पुरवते.'}
+                  ? 'Creative Hitech Nursery provides healthiest root-bound stock directly from field beds for landscape architects, builders, and developers across Maharashtra.' 
+                  : 'क्रिएटिव्ह हायटेक नर्सरी महाराष्ट्रातील लँडस्केप आर्किटेक्ट, बिल्डर्स आणि डेव्हलपर्ससाठी थेट शेतातून अत्यंत निरोगी रोपे पुरवते.'}
               </p>
 
               <div className="space-y-4 pt-2">
@@ -988,8 +988,8 @@ export default function App() {
                   <p className="text-xs text-slate-500 font-semibold">
                     {lang === 'en' ? 'Direct Call Desk' : 'थेट संपर्क क्रमांक'}
                   </p>
-                  <a href="tel:09657041571" className="text-lg font-black text-slate-900 hover:text-purple-600 transition-colors">
-                    096570 41571
+                  <a href="tel:7378748124" className="text-lg font-black text-slate-900 hover:text-purple-600 transition-colors">
+                    73787 48124
                   </a>
                 </div>
               </div>
@@ -1101,10 +1101,10 @@ export default function App() {
               {lang === 'en' ? 'Location & Hours' : 'पत्ता आणि वेळ'}
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
-              {lang === 'en' ? 'Visit Shreenath Nursery In Shindaone' : 'शिंदावणे येथील श्रीनाथ नर्सरीला भेट द्या'}
+              {lang === 'en' ? 'Visit Creative Hitech Nursery In Uruli Kanchan' : 'उरळी कांचन येथील क्रिएटिव्ह हायटेक नर्सरीला भेट द्या'}
             </h2>
             <p className="text-slate-600 text-sm mt-3 font-normal">
-              {lang === 'en' ? 'Located at Sortapwadi Phata. Open 24 Hours for convenience.' : 'सोरतापवाडी फाट्यावर स्थित. सोयीसाठी चोवीस तास सुरू.'}
+              {lang === 'en' ? 'Located at BAIF Rd, opp. BAIF Research Center. Open 24 Hours for convenience.' : 'बीएआयएफ रोड, बीएआयएफ रिसर्च सेंटर समोर स्थित. सोयीसाठी चोवीस तास सुरू.'}
             </p>
           </div>
 
@@ -1118,7 +1118,7 @@ export default function App() {
                     {lang === 'en' ? 'Nursery Details' : 'नर्सरी तपशील'}
                   </h3>
                   <p className="text-xs text-slate-500 mt-1">
-                    {lang === 'en' ? 'Shreenath Nursery Wholesale & Retail' : 'श्रीनाथ नर्सरी होलसेल आणि किरकोळ'}
+                    {lang === 'en' ? 'Creative Hitech Nursery Wholesale & Retail' : 'क्रिएटिव्ह हायटेक नर्सरी होलसेल आणि किरकोळ'}
                   </p>
                 </div>
 
@@ -1132,7 +1132,7 @@ export default function App() {
                         {lang === 'en' ? 'Address' : 'पत्ता'}
                       </p>
                       <p className="text-xs text-slate-600 leading-relaxed mt-0.5">
-                        {lang === 'en' ? 'Lonkar mala, Sortapwadi Phata, Shindaone, Maharashtra 412202' : 'लोणकर मळा, सोरतापवाडी फाटा, शिंदावणे, महाराष्ट्र ४१२२०२'}
+                        {lang === 'en' ? 'BAIF Rd, opp. BAIF Research Center, Uruli Kanchan, Maharashtra 412202' : 'बीएआयएफ रोड, बीएआयएफ रिसर्च सेंटर समोर, उरळी कांचन, महाराष्ट्र ४१२२०२'}
                       </p>
                     </div>
                   </div>
@@ -1145,8 +1145,8 @@ export default function App() {
                       <p className="text-xs font-bold text-slate-900">
                         {lang === 'en' ? 'Phone' : 'मोबाईल नंबर'}
                       </p>
-                      <a href="tel:09657041571" className="text-sm font-bold text-purple-700 hover:underline">
-                        096570 41571
+                      <a href="tel:7378748124" className="text-sm font-bold text-purple-700 hover:underline">
+                        73787 48124
                       </a>
                     </div>
                   </div>
@@ -1170,7 +1170,7 @@ export default function App() {
 
               <div className="pt-6 border-t border-slate-100">
                 <a
-                  href="https://maps.google.com/?q=Shreenath+Nursery+Shindaone"
+                  href="https://maps.google.com/?q=BAIF+Research+Center+Uruli+Kanchan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-3.5 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-xs flex items-center justify-center space-x-2 shadow-md hover:opacity-95 transition-opacity"
@@ -1185,8 +1185,8 @@ export default function App() {
             {/* Embedded Google Map Preview */}
             <div className="lg:col-span-7 rounded-3xl bg-slate-100 border border-slate-200/80 overflow-hidden min-h-[350px] relative shadow-sm">
               <iframe
-                title="Shreenath Nursery Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.823901726084!2d74.1200!3d18.4500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e30000000001%3A0x0!2sSortapwadi%20Phata%2C%20Shindaone%2C%20Maharashtra%20412202!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="Creative Hitech Nursery Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.823901726084!2d74.1200!3d18.4500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e30000000001%3A0x0!2sBAIF+Research+Center%2C+Uruli+Kanchan%2C+Maharashtra+412202!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '380px' }}
@@ -1312,12 +1312,12 @@ export default function App() {
                 <div className="w-7 h-7 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white">
                   <Leaf className="w-4 h-4" />
                 </div>
-                <span className="text-base font-extrabold text-slate-900">shreenath nursery</span>
+                <span className="text-base font-extrabold text-slate-900">creative hitech nursery</span>
               </div>
               <p className="text-slate-500 leading-relaxed font-normal">
                 {lang === 'en' 
-                  ? 'Wholesale plant nursery in Shindaone, Maharashtra supplying all type indoor and outdoor premium plants.' 
-                  : 'शिंदावणे, महाराष्ट्र येथील होलसेल प्लांट नर्सरी जी सर्व प्रकारच्या इनडोअर व आऊटडोअर प्रीमियम वनस्पती पुरवते.'}
+                  ? 'Wholesale plant nursery in Uruli Kanchan, Maharashtra supplying all type indoor and outdoor premium plants.' 
+                  : 'उरळी कांचन, महाराष्ट्र येथील होलसेल प्लांट नर्सरी जी सर्व प्रकारच्या इनडोअर व आऊटडोअर प्रीमियम वनस्पती पुरवते.'}
               </p>
             </div>
 
@@ -1361,9 +1361,9 @@ export default function App() {
                 {lang === 'en' ? 'Direct Contact' : 'थेट संपर्क'}
               </h4>
               <p className="text-slate-600">
-                {lang === 'en' ? 'Lonkar mala, Sortapwadi Phata, Shindaone, Maharashtra 412202' : 'लोणकर मळा, सोरतापवाडी फाटा, शिंदावणे, महाराष्ट्र ४१२२०२'}
+                {lang === 'en' ? 'BAIF Rd, opp. BAIF Research Center, Uruli Kanchan, Maharashtra 412202' : 'बीएआयएफ रोड, बीएआयएफ रिसर्च सेंटर समोर, उरळी कांचन, महाराष्ट्र ४१२२०२'}
               </p>
-              <p className="text-purple-700 font-bold mt-2">Phone: 096570 41571</p>
+              <p className="text-purple-700 font-bold mt-2">Phone: 73787 48124</p>
               <p className="text-slate-500 mt-0.5">
                 {lang === 'en' ? 'Open 24 Hours' : 'चोवीस तास सुरू'}
               </p>
@@ -1372,9 +1372,9 @@ export default function App() {
           </div>
 
           <div className="pt-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400">
-            <p>© {new Date().getFullYear()} Shreenath Nursery. {lang === 'en' ? 'All rights reserved.' : 'सर्व हक्क राखीव.'}</p>
+            <p>© {new Date().getFullYear()} Creative Hitech Nursery. {lang === 'en' ? 'All rights reserved.' : 'सर्व हक्क राखीव.'}</p>
             <p className="mt-2 sm:mt-0">
-              {lang === 'en' ? 'Wholesale Nursery Platform • Shindaone, Maharashtra' : 'होलसेल नर्सरी प्लॅटफॉर्म • शिंदावणे, महाराष्ट्र'}
+              {lang === 'en' ? 'Wholesale Nursery Platform • Uruli Kanchan, Maharashtra' : 'होलसेल नर्सरी प्लॅटफॉर्म • उरळी कांचन, महाराष्ट्र'}
             </p>
           </div>
         </div>
@@ -1383,7 +1383,7 @@ export default function App() {
       {}
       <div className="fixed bottom-5 right-5 z-40 flex items-center space-x-2 sm:space-x-3">
         <a
-          href="https://wa.me/919657041571?text=Hello%20Shreenath%20Nursery,%20I%20want%20to%20inquire%20about%20plants."
+          href="https://wa.me/917378748124?text=Hello%20Creative%20Hitech%20Nursery,%20I%20want%20to%20inquire%20about%20plants."
           target="_blank"
           rel="noopener noreferrer"
           className="p-3.5 rounded-full bg-emerald-500 text-white font-bold shadow-xl hover:scale-105 active:scale-95 transition-transform flex items-center space-x-2"
@@ -1396,12 +1396,12 @@ export default function App() {
         </a>
 
         <a
-          href="tel:09657041571"
+          href="tel:7378748124"
           className="p-3.5 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold shadow-xl hover:scale-105 active:scale-95 transition-transform flex items-center space-x-2"
           title="Call Now"
         >
           <Phone className="w-5 h-5" />
-          <span className="hidden sm:inline text-xs font-bold">096570 41571</span>
+          <span className="hidden sm:inline text-xs font-bold">73787 48124</span>
         </a>
       </div>
 
